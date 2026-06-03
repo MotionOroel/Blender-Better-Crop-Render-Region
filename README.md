@@ -4,7 +4,7 @@ Precisely control and scale your render crop regions numerically directly within
 
 Includes object-bound target extraction, region presets, robust safety aspect locks, a persistent scene bookmarking engine, and an interactive modern 2D viewport overlay shader drawing system.
 
-Tool made for personal use coded by AI
+Tool made for personal use, coded by AI
 
 Key Features
 
@@ -30,29 +30,14 @@ Installation
 
     Navigate to Edit → Preferences → Add-ons.
 
-    Click Install... and navigate to your downloaded module.
-
-    Search for Custom Crop Render Regions and click the checkbox to activate.
+    Click legacy Install... and navigate to your downloaded ZIP.
 
 Interface Location
 
 Find your workflow dashboard inside the native properties panel hierarchy:
-Plaintext
 
 Properties Workspace ➔ 📷 Render Properties ➔ ✂️ Custom Crop Regions Panel
 
-Core Property Specifications
-
-The core component operations manage multiple property hooks per scene state:
-Property Reference	Subtype	Scope	System Objective
-norm_x, norm_y	FACTOR	0.0 - 1.0	Normalised positioning coordinates for crop boundaries.
-norm_w, norm_h	FACTOR	0.001 - 1.0	Normalised sizing dimensions for crop boundaries.
-pixel_x, pixel_y	INTEGER	≥0	Pixel-offset positional coordinates for crop boundaries.
-pixel_w, pixel_h	INTEGER	≥1	Pixel dimension sizing constraints relative to active frames.
-target_w, target_h	INTEGER	≥1	Intended production export size criteria.
-enabled	BOOLEAN	True/False	Master operational toggle.
-lock_aspect	BOOLEAN	True/False	Aspect safety lock preservation toggle.
-crop_to_border	BOOLEAN	True/False	Enforces structural output frame isolation.
 Available Operators & Workflow Usage
 📊 Base Control Operations
 

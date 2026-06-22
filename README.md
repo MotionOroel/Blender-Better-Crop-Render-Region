@@ -1,3 +1,6 @@
+
+<img width="1334" height="801" alt="BCR_Thumbnail" src="https://github.com/user-attachments/assets/15e99077-4fcb-45b7-a50c-ddeb028a51b5" />
+
 # Custom Crop Render Regions
 
 Precisely control and scale your render crop regions numerically directly within Blender. Define your crop coordinates using either normalized fractions or concrete pixel coordinates, and watch the add-on dynamically adjust your internal render resolution to guarantee your target output dimensions and aspect ratios are perfectly maintained.
